@@ -9,11 +9,11 @@ const ContactForm = ({ onAddContact }) => {
   const FormSchema = Yup.object().shape({
     name: Yup.string()
       .min(3, "Too Short!")
-      .max(50, "Too Long!")
+      .max(40, "Too Long!")
       .required("Required"),
     number: Yup.string()
       .min(3, "Too Short!")
-      .max(50, "Too Long!")
+      .max(20, "Too Long!")
       .required("Required"),
   });
   const nameFieldId = useId();
