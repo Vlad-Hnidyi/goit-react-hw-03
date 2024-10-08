@@ -61,7 +61,7 @@ const ContactForm = ({ onAddContact }) => {
         />
 
         <div className={css.button}>
-          <button type="submit">Submit</button>
+          <button type="submit">Add contact</button>
         </div>
       </Form>
     </Formik>
